@@ -1,0 +1,61 @@
+body{
+	background: url(../img/4309.jpg);
+  	background-repeat: no-repeat;
+  	background-position: center center;
+  	background-size: cover;
+  	width: 100%;
+  	height: 100%;
+	background-attachment: fixed;
+}
+
+/*Código para el menú principal*/
+.nav-wrapper{
+	background-color: #01579b;
+}
+
+/*Dando color al footer*/
+.page-footer{
+	background-color: #0277bd;
+
+}
+/*Código para los textos*/
+h3{
+	color: #FFFFFF;
+	text-shadow: -5px -5px 5px #757575;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Chewy', cursive;
+	color: #b71c1c;
+}
+/*Otros elementos del blog*/
+#entradas{
+	padding: 15px;
+}
+
+#imgjanb{
+	border: solid 5px #01579b;
+}
+
+#perfiles{
+	text-align: center;
+}
+h5{
+	color: #0288d1;
+}
+
+/*Código para hacer la web responsiva*/
+
+@media screen and (max-width: 480px) {
+
+img{
+	width: auto;
+}
+
+#colizq{
+		display: none;
+}
+#sociales{
+	display: none;
+}
+#imagenprincipal{
+	width: 100%;
+}
